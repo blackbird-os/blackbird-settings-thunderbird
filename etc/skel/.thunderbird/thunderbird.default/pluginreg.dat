@@ -1,20 +1,24 @@
 Generated File. Do not edit.
 
 [HEADER]
-Version:0.18t:$
+Version:0.19t:$
 Arch:x86_64-gcc3:$
 
 [PLUGINS]
-libfreshwrapper-flashplayer.so:$
-/usr/lib/browser-plugin-freshplayer-pepperflash/libfreshwrapper-flashplayer.so:$
-28.0.0.161:$
-1509845583000:0:0:0:$
-Shockwave Flash 28.0 r0:$
+libflashplayer.so:$
+/usr/lib/mozilla/plugins/libflashplayer.so:$
+32.0.0.171:$
+1554871734000:0:0:0:0:$
+Shockwave Flash 32.0 r0:$
 Shockwave Flash:$
 2
 0:application/x-shockwave-flash:Shockwave Flash:swf:$
 1:application/futuresplash:FutureSplash Player:spl:$
 
 [INVALID]
-/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/IcedTeaPlugin.so:$
-1484408814000:$
+/usr/share/icedtea-web/lib/IcedTeaPlugin.so:$
+1505328845000:$
+/opt/google/talkplugin/libnpo1d.so:$
+1489185084000:$
+/opt/google/talkplugin/libnpgoogletalk.so:$
+1489185084000:$
