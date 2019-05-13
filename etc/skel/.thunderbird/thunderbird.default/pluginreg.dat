@@ -1,0 +1,20 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version:0.18t:$
+Arch:x86_64-gcc3:$
+
+[PLUGINS]
+libfreshwrapper-flashplayer.so:$
+/usr/lib/browser-plugin-freshplayer-pepperflash/libfreshwrapper-flashplayer.so:$
+28.0.0.161:$
+1509845583000:0:0:0:$
+Shockwave Flash 28.0 r0:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+
+[INVALID]
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64/IcedTeaPlugin.so:$
+1484408814000:$

@@ -1,0 +1,20 @@
+# $Id$
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
+
+pkgname=blackbird-settings-thunderbird
+pkgver=$(date +%Y.%m)
+pkgrel=1
+pkgdesc="Blackbird OS default settings for Thunderbird"
+arch=('any')
+url='https://github.com/blackbird-os/blackbird-settings-thunderbird'
+license=('GPL')
+
+package() {
+  cd ../..
+  cp -aR usr $pkgdir/
+  cp -aR etc $pkgdir/
+
+#Hook
+  install -Dm644 thunderbird-pre.hook $pkgdir/usr/share/libalpm/hooks/thunderbird-pre.hook
+  install -Dm644 thunderbird-post.hook $pkgdir/usr/share/libalpm/hooks/thunderbird-post.hook
+}
